@@ -1,0 +1,28 @@
+
+div {
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+}
+
+img {
+    animation-name: good;
+    animation-duration: .7s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-direction : alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes good{
+    form {
+        top: 0;
+    }   
+
+    to {
+        top: 20px;
+    }
+}
